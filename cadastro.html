@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Cadastro :: O Filme</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav nav-pills mb-1">
+                <li class="nav-item">
+                    <a href="#" style="margin-left:-15%;"><img src="/img/movie review..svg" alt="LOGO" width="150" height="150"></a>
+                </li>
+
+                <li class="nav-item" style="margin-top:13% ">
+                    <a class=" nav-link text-black" href="# ">
+                        <h3>Cadastro</h3>
+                    </a>
+
+                </li>
+                <li class="nav-item " style="margin-top:13%;">
+                    <a class="nav-link text-black" href="# ">
+                        <h3>Login</h3>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <h1>Informe seus Dados</h1>
+        <hr>
+        <form id="form-contat">
+            <div class="row">
+                <div class="col-sm-12 col-md-6" id="form-contat">
+                    <fieldset class="row">
+
+                        <div class="mb-3">
+                            <label for="txtnome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="txtnome">
+                        </div>
+
+                        <div class="col-md-6 col-xl-4 mb-3">
+                            <label for="txtDataNascimento" class="form-label">Data de nascimento</label>
+                            <input type="date" class="form-control" placeholder="Nome completo (Obrigatório)" id="txtDataNascimento">
+                        </div>
+
+                        <div class="col-md-8 mb-3">
+                            <label for="txtEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="exemplo@gmail.com" id="txtEmail">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            <h3>Senha de Acesso</h3>
+                        </legend>
+                        <div class="mb-3">
+                            <label for="txtSenha" class="form-label">Senha</label>
+                            <input type="password" class="form-control" placeholder="Senha(Obrigatório)" id="txtSenha">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="txtConfSenha" class="form-label">Confirmação da Senha</label>
+                            <input type="password" class="form-control" placeholder="Repita a Senha(Obrigatório)" id="txtConfSenha">
+                        </div>
+                    </fieldset>
+
+                </div>
+            </div>
+            <hr>
+            <!-- <div class="form-check mb-3" id="form-contat">
+                <input type="checkbox" class="form-check-input" value="" id="chkPromocoes">
+                <label for="chkPromocos" class="form-check-label"> Desejo receber informações sobre promoçoes</label>
+            </div>-->
+            <div class="mb-3" id="form-contat">
+                <a class="btn btn-light btn-outline-dark" href="/index.html">cancelar</a>
+                <a class="btn btn-warning " href="homepage.html ">Criar meu Cadastro</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
