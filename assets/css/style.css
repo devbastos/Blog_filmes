@@ -1,7 +1,11 @@
 * {
     margin: 0 auto;
     padding: 0;
-    background-color: #f6f6f6;
+    background-color: #f1f1f1fb
+}
+
+body {
+    background-color: #f1f1f1fb
 }
 
 header {
@@ -13,7 +17,24 @@ ul li {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /*categoria acao*/
 
-#hero_acao {}
+.main-content {
+    background-color: #f1f1f1fb
+}
+
+.title-categoria {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#filme {
+    margin-left: -15px;
+}
