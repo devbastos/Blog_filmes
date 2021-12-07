@@ -19,6 +19,17 @@ ul li {
 
 a {
     text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+
+/*icone de voltar em cada categoria*/
+
+.icon_voltar {
+    padding: 0;
+    margin-left: 300px;
+    margin-top: -450px;
+    color: rgb(0, 0, 0)
 }
 
 
@@ -37,4 +48,26 @@ a {
 
 #filme {
     margin-left: -15px;
+}
+
+
+/*page config*/
+
+.icon_voltar_config {
+    padding: 0;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+
+.icon_pessoa {
+    padding: 0;
+    margin-top: 50px;
+    margin-left: -50px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+.opcao {
+    margin-left: 20px;
 }
